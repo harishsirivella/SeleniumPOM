@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="2">
+	<parameter name="browser" value="chrome"></parameter>
+	<test name="Test">
+		<classes>
+			<class name="assure.initiator.DriverLaunch" />
+			<class name="assure.scripts.SmokeTest">
+			<!-- <methods>
+				<include name="addLocationTestCase" />
+				<include name="addDepartmentTestCase" />
+				<exclude name="addEmployeeTestCase" />
+			</methods> -->
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
